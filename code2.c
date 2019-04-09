@@ -5,8 +5,14 @@
 #include<unistd.h>
 int main()
 {
-	int total_process;
+	int n;			//total_process
+	int burst_time[5][3];
 	printf("Enter the number of process you want to enter = ");
-	scanf("%d",total_process);
+	scanf("%d",n);
 	
+	printf("Enter burst time for each process = ")
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",burst_time[i][0]);
+	}
 }
